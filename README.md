@@ -1,29 +1,66 @@
-# Study-Agents
+# Study-Agents 🧠
 
-A production-ready, pure markdown-driven AI agent workflow project designed for autonomous AI development environments (Claude Code, Cursor, Roo Code, OpenCode).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Architecture](https://img.shields.io/badge/Architecture-Agent%20Skills-green.svg)](https://github.com/anthropics/skills)
 
-## Overview
+**Study-Agents** is a professional, modular, and markdown-first autonomous AI study framework. It transforms agentic AI IDEs (like Claude Code, Cursor, and Roo Code) into a self-evolving "Study Operating System" that orchestrates a team of specialized pedagogical agents to help you master any topic.
 
-Study-Agents is not a chatbot. It is a modular system of autonomous study-focused agents that operate through structured prompts, instruction files, and persistent memory. It functions as an AI-powered study operating system.
+---
 
-## Architecture
+## 🚀 Key Features
 
-- **`/agents`**: Instruction files (AIFs) defining specific agent personas and logic.
-- **`/memory`**: Persistent state tracking learning styles, progress, and revision schedules.
-- **`/templates`**: Standardized output schemas for interoperability.
-- **`/workflows`**: Orchestration logic for complex multi-agent tasks.
+*   **Professional "Agent Skills" Architecture**: Built on the Anthropic `SKILL.md` standard. Each agent is a discrete, discoverable skill with YAML metadata and imperative instructions.
+*   **🎨 Visual Engine (Mermaid.js)**: Agents autonomously generate logical flowcharts and mind maps for complex topics, providing instant visual clarity.
+*   **📡 Real-Time Research**: Mandated web-research steps for fast-moving fields (AI, Space, Medicine) to ensure pedagogical accuracy and latest breakthroughs.
+*   **🛡️ Self-Correcting Logic**: Agents detect flawed user inquiries and misconception-based questions, reframing them into productive learning paths before answering.
+*   **📉 Confidence Decay & SRS**: A realistic Spaced Repetition System that tracks retention and penalizes confidence scores if review sessions are missed.
+*   **🧹 Memory Maintenance**: Automated agents that prune context, archive mastered topics, and keep your "Study OS" lean and high-signal.
 
-## Getting Started
+---
 
-To use Study-Agents, point your agentic AI IDE (like Claude Code) to this directory. The system is self-documenting via `SYSTEM_INSTRUCTIONS.md`.
+## 📂 Core Structure
 
-## Core Agents
+```text
+Study-Agents/
+├── SYSTEM_INSTRUCTIONS.md    # The "Orchestrator" brain & core rules
+├── skills/                   # Professional Agent Skill library
+│   ├── topic-breakdown/      # Deconstructs topics into First Principles
+│   ├── concept-simplifier/   # ELI5 + Vivid Analogies + Mermaid Diagrams
+│   ├── revision/             # SRS Management & Confidence Decay logic
+│   ├── onboarding/           # Interactive user-profile setup
+│   └── ... (9 specialized skills)
+├── memory/                   # Persistent SRS, Progress, and Profile state
+├── workflows/                # Multi-skill autonomous orchestration scripts
+└── templates/                # Standardized output interfaces
+```
 
-- `topic-breakdown-agent`: Simplifies complex topics.
-- `learning-style-agent`: Adapts to user preferences.
-- `study-planner-agent`: Manages goals and roadmaps.
-- `revision-agent`: Handles spaced repetition.
-- `quiz-agent`: Generates active recall exercises.
-- `progress-analysis-agent`: Tracks and improves performance.
-- `focus-coach-agent`: Maintains discipline and motivation.
-- `concept-simplifier-agent`: Re-explains concepts from different angles.
+---
+
+## 🛠️ Getting Started
+
+### 1. Installation
+Simply clone this repository into your project workspace:
+```bash
+git clone https://github.com/KishanDavda-IT/Study-agents.git
+```
+
+### 2. Activation
+Point your agentic AI IDE (Claude Code, Cursor, Roo Code) to this directory. The system is designed to be self-discovering via the `SYSTEM_INSTRUCTIONS.md`.
+
+### 3. Usage Examples
+*   **Initialize**: `/ask Start the onboarding process.`
+*   **Learn**: `/ask I want to learn about Quantum Field Theory.`
+*   **Revision**: `/ask What should I review today?`
+*   **Analysis**: `/ask Show me my progress report.`
+
+---
+
+## 🤝 Contributing
+This is an open-source project. We welcome contributions to new specialized skills (e.g., Coding-Tutor, Language-Immersion) and improvements to our SRS algorithms.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Built for the next generation of autonomous AI learning ecosystems.*
