@@ -1,19 +1,19 @@
 # User Learning Profile
 
 ## Learning Style Analysis
-- **Primary Style**: Visual Learner
+- **Primary Style**: Unknown
 - **Secondary Styles**: []
-- **Detection Confidence**: 100% (Manual Set for Test)
+- **Detection Confidence**: 0%
 
 ## Goals & Motivation
 - **Core Objective**: General Learning
 - **Current Focus**: N/A
-- **Why?**: (User to provide)
+- **Why?**: (User to provide during onboarding)
 
 ## Personal Preferences
 - **Analogy Type**: Neutral
 - **Technical Depth**: Standard
-- **Session Length Preference**: 25 mins (Default Pomodoro)
+- **Session Length Preference**: 25 mins
 
 ## History & Streaks
 - **Total Sessions**: 0
